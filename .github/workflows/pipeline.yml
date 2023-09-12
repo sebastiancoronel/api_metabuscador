@@ -3,7 +3,7 @@ name: Deployment Pipeline
 on:
     push:
         branches:
-            -main
+            - main
 jobs:
     deploy:
         runs-on: ubuntu-18.04
